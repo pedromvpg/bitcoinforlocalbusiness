@@ -11,13 +11,35 @@ body{
   margin: 0
 }
 
+
+/* unvisited link */
+a:link {
+  color: #000;
+}
+
+/* visited link */
+a:visited {
+  color: #000;
+}
+
+/* mouse over link */
+a:hover {
+  color: #000;
+}
+
+/* selected link */
+a:active {
+  color: #000;
+}
+
 #container{
   /* padding: 30px; */
   margin: 0 auto;
   width: 100%;
   max-width: 650px;
   box-sizing: border-box;
-box-shadow: #0000001c 0 0 23px;}
+  box-shadow: #0000001c 0 0 23px;
+}
 
 header{
   /* margin-bottom: 80px; */
@@ -30,6 +52,16 @@ header img{width: 100%;display: block;;}
 article{
   background: #fff;
   padding: 3rem;
+}
+
+@media only screen and (max-width: 680px) {
+  #container{
+    box-shadow: none;
+  }
+
+  article{
+    padding: 2rem;
+  }
 }
 
 
@@ -66,6 +98,7 @@ h1 span {display: block;width: 100%;}
 
 .cta.download {
   background: #0D6FE0;
+  color: #fff;
 }
 
 
@@ -93,4 +126,5 @@ tr:nth-child(even) {
 .twitter-tweet {
   margin: auto;
   margin-bottom: 30px !important;
-  margin-left: 0;margin-right: 0;}
+  margin-left: 0;margin-right: 0;
+}
