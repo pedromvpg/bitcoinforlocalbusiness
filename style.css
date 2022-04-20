@@ -1,0 +1,96 @@
+@import url('Inter-Web/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+
+body{
+  background: #ffffff;
+  /* background-image: url(imgs/pattern-bg.svg); */
+  margin: 0
+}
+
+#container{
+  /* padding: 30px; */
+  margin: 0 auto;
+  width: 100%;
+  max-width: 650px;
+  box-sizing: border-box;
+box-shadow: #0000001c 0 0 23px;}
+
+header{
+  /* margin-bottom: 80px; */
+  color: #fff;
+  background: #0D6FE0;
+}
+
+header img{width: 100%;display: block;;}
+
+article{
+  background: #fff;
+  padding: 3rem;
+}
+
+
+
+section {
+  margin-bottom: 120px;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+
+
+h1 span {display: block;width: 100%;}
+.title-1{ text-align: left;}
+.title-2{ text-align: right; margin-top: -30px}
+
+.center{ text-align: center}
+
+.cta{
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 500;
+  text-align: center;
+  background: #ff9900;
+  border-radius: 3px;
+}
+
+
+.cta.download {
+  background: #0D6FE0;
+}
+
+
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  border-left: none;
+  border-right: none;
+  text-align: left;
+  padding: 8px 0px;
+}
+
+tr:nth-child(even) {
+  background-color: #fff;
+}
+
+
+.twitter-tweet {
+  margin: auto;
+  margin-bottom: 30px !important;
+  margin-left: 0;margin-right: 0;}
