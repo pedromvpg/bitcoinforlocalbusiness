@@ -123,6 +123,8 @@ tr:nth-child(even) {
 }
 
 
+.flag{ height: 15px}
+
 .twitter-tweet {
   margin: auto;
   margin-bottom: 30px !important;
