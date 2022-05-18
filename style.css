@@ -109,6 +109,14 @@ table {
   border-collapse: collapse;
   width: 100%;
 }
+@media only screen and (max-width: 680px) {
+  table{
+    font-size: 80%;
+  }
+  .cta {
+    padding: 10px 0;
+  }
+}
 
 td, th {
   border: 1px solid #dddddd;
