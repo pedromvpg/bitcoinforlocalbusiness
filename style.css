@@ -131,7 +131,7 @@ tr:nth-child(even) {
 }
 
 
-.flag{ height: 15px}
+.flag{ height: 15px; box-shadow: #00000036 0 0 3px;}
 
 .twitter-tweet {
   margin: auto;
