@@ -138,3 +138,28 @@ tr:nth-child(even) {
   margin-bottom: 30px !important;
   margin-left: 0;margin-right: 0;
 }
+
+
+
+/*
+BTCPAY donation
+*/
+
+.dontion-outter {
+    width: 100%;
+    margin: 2rem 0 3rem 0;
+}
+
+.dontion-inner {
+    width: 296px;
+    margin: auto;
+}
+
+button.submit {
+    padding: 3px 34px;
+}
+
+input.btcpay-input-price {
+    border: 1px #ccc solid;
+    padding: 18px;
+}
