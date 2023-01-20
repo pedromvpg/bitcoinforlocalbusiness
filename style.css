@@ -148,11 +148,11 @@ tr:nth-child(even) {
 
 .dontion-outter {
     width: 100%;
-    margin: 2rem 0 3rem 0;
+    margin: 4rem 0 6rem 0;
 }
 
 .dontion-inner {
-    width: 296px;
+    max-width: 256px;
     margin: auto;
 }
 
