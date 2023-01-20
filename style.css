@@ -141,8 +141,9 @@ tr:nth-child(even) {
 
 
 
+
 /*
-BTCPAY donation
+  BTCPAY donation
 */
 
 .dontion-outter {
@@ -156,7 +157,7 @@ BTCPAY donation
 }
 
 button.submit {
-    padding: 3px 34px;
+    padding: 7px 34px 2px 34px;
 }
 
 input.btcpay-input-price {
